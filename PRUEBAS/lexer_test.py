@@ -19,4 +19,4 @@ class LexerTest(TestCase):
             Token(TokenType.ILLEGAL, '@'),
         ]
 
-        self.assertEqual(tokens, expected_tokens)
+        self.assertEquals(tokens, expected_tokens)
